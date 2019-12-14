@@ -55,7 +55,6 @@ void* osDequeue(OSQueue* q)
 
     if(previousHead == NULL)
         return NULL;
-
     q->head = q->head->next;
 
     if (q->head == NULL)

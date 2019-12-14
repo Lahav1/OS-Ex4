@@ -1,6 +1,5 @@
 #ifndef __THREAD_POOL__
 #define __THREAD_POOL__
-
 #include <sys/types.h>
 #include "osqueue.h"
 #include <malloc.h>
